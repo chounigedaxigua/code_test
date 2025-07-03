@@ -1,0 +1,30 @@
+source = $(wildcard *.cpp \
+	*.c \
+	tcp/*.c \
+	tcp/*.cpp \
+	uart/*.cpp \
+	update_version/*.cpp \
+	common/*.CPP )
+
+include = -I./common\
+	-I./tcp \
+	-I./uart \
+	-I./update_vesion
+
+
+C_LIBRARY = -lcurl  \
+			-lwiringPi \
+			-lpthread
+
+target_ = $(patsubst %.cpp,%.o,$(source))
+target = $(patsubst %.c,%.o,$(target_))
+
+$(info $(source))
+$(info $(target))
+
+main : $(target)
+	g++ $(target) $(include) -o main  $(C_LIBRARY)
+#       g++ $< $@
+
+clean :
+	rm $(target) main

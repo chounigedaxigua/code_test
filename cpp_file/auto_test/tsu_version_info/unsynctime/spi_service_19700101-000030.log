@@ -1,0 +1,405 @@
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_service]:spi_service_open 126
+
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_comm]:< open(/dev/spidev7.0, O_RDWR)=5 >
+
+
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi open /dev/spidev7.0  fd 5 mode:0x3, bits per word 8,max speed % Hz(2000000 KHz) 
+
+
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:channel name 6_remote 
+
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:channel name 6_response 
+
+1970-01-01 00:00:30.811,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:channel name 6_muticast 
+
+1970-01-01 00:00:30.812,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:epoll_create1 fd 8 
+
+1970-01-01 00:00:30.812,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_remote_send
+
+1970-01-01 00:00:30.812,pid:1643-tid:1646,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start loop_thread 
+
+1970-01-01 00:00:30.812,pid:1643-tid:1648,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.819,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.819,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 9 path /tmp/cx/usocket/6_remote_send
+
+1970-01-01 00:00:30.819,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_remote_send
+
+1970-01-01 00:00:30.819,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 9   buf szie 32768 
+
+1970-01-01 00:00:30.819,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.820,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.820,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_remote_recv
+
+1970-01-01 00:00:30.864,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 10 path /tmp/cx/usocket/6_remote_recv
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_remote_recv
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 10   buf szie 32768 
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.865,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_remote_recv
+
+1970-01-01 00:00:30.866,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_response_send
+
+1970-01-01 00:00:30.901,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.902,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 11 path /tmp/cx/usocket/6_response_send
+
+1970-01-01 00:00:30.902,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_response_send
+
+1970-01-01 00:00:30.902,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 11   buf szie 32768 
+
+1970-01-01 00:00:30.902,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.903,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.903,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_response_recv
+
+1970-01-01 00:00:30.912,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 12 path /tmp/cx/usocket/6_response_recv
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_response_recv
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 12   buf szie 32768 
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_response_recv
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:add fd 12 8 0x558a6744b0
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:fd 12 set O_NONBLOCK 
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:epool fd 8 ,add client fd 12,0x558a6744b0 
+
+1970-01-01 00:00:30.918,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_muticast_send
+
+1970-01-01 00:00:30.939,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.939,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 13 path /tmp/cx/usocket/6_muticast_send
+
+1970-01-01 00:00:30.940,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_muticast_send
+
+1970-01-01 00:00:30.940,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 13   buf szie 32768 
+
+1970-01-01 00:00:30.940,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.940,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.940,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_muticast_recv
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:socket 14 path /tmp/cx/usocket/6_muticast_recv
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/6_muticast_recv
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:get sockdet fd 14   buf szie 32768 
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.964,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:start 6_muticast_recv
+
+1970-01-01 00:00:30.965,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:add fd 14 8 0x558a6746d8
+
+1970-01-01 00:00:30.965,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:sal_net_device]:fd 14 set O_NONBLOCK 
+
+1970-01-01 00:00:30.965,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:ipc_socket_endpoint]:epool fd 8 ,add client fd 14,0x558a6746d8 
+
+1970-01-01 00:00:30.967,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_task]:start spi_service_rw_thread 
+
+1970-01-01 00:00:30.986,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_service]:open io 126 ret 0 
+
+1970-01-01 00:00:30.986,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_service]:< ql_gpio_set_pull_selection: gpio=126, pullsel=3, iRet=0 >
+
+
+1970-01-01 00:00:30.989,pid:1643-tid:1643,app:cx_spi_service 6,I,msg:[module:spi_service]:open io 126 ret 0 
+
+1970-01-01 00:00:30.268,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 19 134
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee55007f    00000000    06010100    00000100    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.268,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0077
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:[module:spi_task]: fun_id 127  task 0x55bb9ecac0  serial 0 timer timeout  task 
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:ee55007f    00000000    06010100    00000100    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.281,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    0077
+
+1970-01-01 00:00:30.294,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 19 134
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee55017d    00000000    01000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.294,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0080
+
+1970-01-01 00:00:30.223,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550261    00000000    80020000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.223,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    001a
+
+1970-01-01 00:00:30.249,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550367    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000001    00404040    00000000    00000000    00000040    
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00cd
+
+1970-01-01 00:00:30.258,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550426    00000000    80000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.258,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0055
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service recv data :
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:55ee0426    00000000    07031801    0101013b    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.262,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0074
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:[module:spi_task]: fun_id 125  task 0x55bb9ecc20  serial 1 timer timeout  task 
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:ee55017d    00000000    01000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:30.393,pid:1643-tid:1673,app:cx_spi_service 6,I,msg:00000000    00000000    0080
+
+1970-01-01 00:00:31.254,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550567    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000001    00404040    00000000    00000000    00000040    
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:31.254,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00cb
+
+1970-01-01 00:00:32.251,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550667    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000040    
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.252,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00c8
+
+1970-01-01 00:00:32.636,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 18 134
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550720    00000000    80000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.636,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0058
+
+1970-01-01 00:00:32.638,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service recv data :
+
+1970-01-01 00:00:32.638,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:55ee0720    00000000    800e4732    3656302e    4a30312e    31372d42    00000000    00000000    
+
+1970-01-01 00:00:32.638,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.638,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00112020    20202020    20202020    20202020    20202000    00000000    
+
+1970-01-01 00:00:32.639,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:32.639,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0006
+
+1970-01-01 00:00:33.238,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550867    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000040    
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:33.238,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00c6
+
+1970-01-01 00:00:34.267,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550967    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:34.267,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0005
+
+1970-01-01 00:00:35.234,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:35.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:35.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550a67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:35.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:35.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:35.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:35.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0004
+
+1970-01-01 00:00:36.234,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550b67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:36.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0003
+
+1970-01-01 00:00:37.235,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550c67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:37.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0002
+
+1970-01-01 00:00:37.977,pid:1643-tid:1674,app:cx_spi_service 6,I,msg:[module:spi_service]: send_cnt 23,recv_cnt 11 ,pin cnt 10,err_cnt 0
+
+1970-01-01 00:00:38.234,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:38.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:38.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550d67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:38.234,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:38.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:38.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:38.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0001
+
+1970-01-01 00:00:39.241,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:39.241,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:39.242,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550e67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:39.242,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:39.242,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:39.242,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:39.242,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    0000
+
+1970-01-01 00:00:40.235,pid:1643-tid:1647,app:cx_spi_service 6,I,msg:[module:spi_service]:_spi_service_rmote_spi_call  src 1 134
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:[module:spi_comm]:spi service send data :
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:ee550f67    00000000    86010000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00000000    00000003    00404040    00000000    00000000    00000000    
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00400000    00000000    00000000    00000000    00000000    00000000    00000000    00000000    
+
+1970-01-01 00:00:40.235,pid:1643-tid:1675,app:cx_spi_service 6,I,msg:00000000    00000000    00ff
+

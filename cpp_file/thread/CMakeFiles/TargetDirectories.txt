@@ -1,0 +1,3 @@
+/home/xhh/cpp_file/pthread/CMakeFiles/main.dir
+/home/xhh/cpp_file/pthread/CMakeFiles/edit_cache.dir
+/home/xhh/cpp_file/pthread/CMakeFiles/rebuild_cache.dir

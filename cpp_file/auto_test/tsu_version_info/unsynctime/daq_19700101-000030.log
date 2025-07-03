@@ -1,0 +1,164 @@
+1970-01-01 00:00:30.621,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:sal_list]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/common_lib/sal/src/container/sal_list.c,line:084,function:sal_list_entry_insert_tail,assert info:assert [ list->size < list->max ] failed!
+
+1970-01-01 00:00:30.114,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:channel name 19_remote 
+
+1970-01-01 00:00:30.114,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:channel name 19_response 
+
+1970-01-01 00:00:30.114,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:channel name 19_muticast 
+
+1970-01-01 00:00:30.124,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:epoll_create1 fd 9 
+
+1970-01-01 00:00:30.124,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_remote_send
+
+1970-01-01 00:00:30.124,pid:1610-tid:1709,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start loop_thread 
+
+1970-01-01 00:00:30.125,pid:1610-tid:1708,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 10 path /tmp/cx/usocket/19_remote_send
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_remote_send
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 10   buf szie 32768 
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.147,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_remote_recv
+
+1970-01-01 00:00:30.157,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.157,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 11 path /tmp/cx/usocket/19_remote_recv
+
+1970-01-01 00:00:30.157,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_remote_recv
+
+1970-01-01 00:00:30.158,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 11   buf szie 32768 
+
+1970-01-01 00:00:30.158,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.159,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.159,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_remote_recv
+
+1970-01-01 00:00:30.172,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_response_send
+
+1970-01-01 00:00:30.199,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.213,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 12 path /tmp/cx/usocket/19_response_send
+
+1970-01-01 00:00:30.213,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_response_send
+
+1970-01-01 00:00:30.214,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 12   buf szie 32768 
+
+1970-01-01 00:00:30.214,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.214,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.214,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_response_recv
+
+1970-01-01 00:00:30.230,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 13 path /tmp/cx/usocket/19_response_recv
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_response_recv
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 13   buf szie 32768 
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_response_recv
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:add fd 13 9 0x5569ff4598
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:fd 13 set O_NONBLOCK 
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:epool fd 9 ,add client fd 13,0x5569ff4598 
+
+1970-01-01 00:00:30.231,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_muticast_send
+
+1970-01-01 00:00:30.246,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.250,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 14 path /tmp/cx/usocket/19_muticast_send
+
+1970-01-01 00:00:30.250,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_muticast_send
+
+1970-01-01 00:00:30.250,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 14   buf szie 32768 
+
+1970-01-01 00:00:30.250,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.250,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.251,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_muticast_recv
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:socket 15 path /tmp/cx/usocket/19_muticast_recv
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/19_muticast_recv
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:get sockdet fd 15   buf szie 32768 
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.261,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.262,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:start 19_muticast_recv
+
+1970-01-01 00:00:30.262,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:add fd 15 9 0x5569ff47c0
+
+1970-01-01 00:00:30.262,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:sal_net_device]:fd 15 set O_NONBLOCK 
+
+1970-01-01 00:00:30.262,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:ipc_socket_endpoint]:epool fd 9 ,add client fd 15,0x5569ff47c0 
+
+1970-01-01 00:00:30.266,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_main]:set_framework_status 1
+
+1970-01-01 00:00:30.267,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:daq_setting_query]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/business_app/daq/src/setting/setting_query.c,line:579,function:init_general_setting_info,assert info:assert [ uploadMinPeriod not found ] failed!
+
+1970-01-01 00:00:30.268,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:daq_setting_main]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/business_app/daq/src/setting/setting_main.c,line:020,function:setting_init_by_dsf,assert info:assert [init_general_setting_info() == SAL_STATE_OK] failed! init_general_setting_info() = SAL_STATE_FAILED
+
+1970-01-01 00:00:30.268,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:daq_main]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/business_app/daq/src/framework/framework.c,line:067,function:component_init_by_dsf,assert info:assert [setting_init_by_dsf() == SAL_STATE_OK] failed! setting_init_by_dsf() = SAL_STATE_FAILED
+
+1970-01-01 00:00:30.268,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table start
+
+1970-01-01 00:00:30.294,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_ipc_comm]:ipc_endpiont_remote_call failed
+
+1970-01-01 00:00:30.294,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_message_send]:spi_send_proc type 8 data len 6
+
+1970-01-01 00:00:30.294,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_transmit_control_timeout proc msg_type 0
+
+1970-01-01 00:00:30.294,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:App transmit finish flag successful
+
+1970-01-01 00:00:30.317,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_ipc_comm]:ipc_endpiont_remote_call failed
+
+1970-01-01 00:00:30.317,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_message_send]:spi_send_proc type 6 data len 1
+
+1970-01-01 00:00:30.317,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:daq_message_send]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/business_app/daq/src/framework/message_send.c,line:125,function:spi_send_proc,assert info:assert [ timeout_proc_func != NULL ] failed!
+
+1970-01-01 00:00:30.317,pid:1610-tid:1610,app:cx_daq 19,E,msg:[module:daq_message_send]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/business_app/daq/src/framework/message_send.c,line:140,function:ipc_send_proc,assert info:assert [spi_send_proc(send_data, len, message_type) == SAL_STATE_OK] failed! spi_send_proc(send_data, len, message_type) = SAL_STATE_FAILED
+
+1970-01-01 00:00:30.317,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:31.318,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:32.318,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:33.318,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:34.318,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:35.319,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:36.319,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:37.319,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:38.319,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:39.319,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+
+1970-01-01 00:00:40.320,pid:1610-tid:1610,app:cx_daq 19,I,msg:[module:daq_mcu_comm]:mcu_send_can_table wait reply mcu
+

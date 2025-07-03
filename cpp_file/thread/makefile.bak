@@ -1,0 +1,20 @@
+source += $(wildcard *.cpp) \
+$(wildcard ./task/*.c) \
+$(wildcard ./task/*.cpp)
+
+#source += $(wildcard *.c)
+INCLUDE = -I/task/task 
+target_ = $(patsubst %.cpp,%.o,$(source))
+target = $(patsubst %.c,%.o,$(target_))
+
+$(info $(source))
+$(info $(target))
+$(info $(INCLUDE))
+
+haha : $(target)
+	g++ $(INCLUDE) $(target) -o haha
+#       g++ $< $@
+
+clean :
+	rm $(target) haha
+

@@ -1,0 +1,274 @@
+1970-01-01 00:00:30.956,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:channel name 41_remote 
+
+1970-01-01 00:00:30.956,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:channel name 41_response 
+
+1970-01-01 00:00:30.956,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:channel name 41_muticast 
+
+1970-01-01 00:00:30.961,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:epoll_create1 fd 7 
+
+1970-01-01 00:00:30.961,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_remote_send
+
+1970-01-01 00:00:30.961,pid:1888-tid:1891,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start loop_thread 
+
+1970-01-01 00:00:30.966,pid:1888-tid:1889,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.997,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.997,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 8 path /tmp/cx/usocket/41_remote_send
+
+1970-01-01 00:00:30.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_remote_send
+
+1970-01-01 00:00:30.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 8   buf szie 32768 
+
+1970-01-01 00:00:30.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_remote_recv
+
+1970-01-01 00:00:30.017,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 9 path /tmp/cx/usocket/41_remote_recv
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_remote_recv
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 9   buf szie 32768 
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.019,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_remote_recv
+
+1970-01-01 00:00:30.023,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_response_send
+
+1970-01-01 00:00:30.044,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 10 path /tmp/cx/usocket/41_response_send
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_response_send
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 10   buf szie 32768 
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.066,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_response_recv
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 11 path /tmp/cx/usocket/41_response_recv
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_response_recv
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 11   buf szie 32768 
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_response_recv
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:add fd 11 7 0x7fef8fed68
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:fd 11 set O_NONBLOCK 
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:epool fd 7 ,add client fd 11,0x7fef8fed68 
+
+1970-01-01 00:00:30.111,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_muticast_send
+
+1970-01-01 00:00:30.162,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.163,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 12 path /tmp/cx/usocket/41_muticast_send
+
+1970-01-01 00:00:30.163,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_muticast_send
+
+1970-01-01 00:00:30.163,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 12   buf szie 32768 
+
+1970-01-01 00:00:30.163,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.163,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.164,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_muticast_recv
+
+1970-01-01 00:00:30.207,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.211,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:socket 13 path /tmp/cx/usocket/41_muticast_recv
+
+1970-01-01 00:00:30.211,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/41_muticast_recv
+
+1970-01-01 00:00:30.212,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:get sockdet fd 13   buf szie 32768 
+
+1970-01-01 00:00:30.212,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.212,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.213,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:start 41_muticast_recv
+
+1970-01-01 00:00:30.213,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:add fd 13 7 0x7fef8fef90
+
+1970-01-01 00:00:30.213,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:sal_net_device]:fd 13 set O_NONBLOCK 
+
+1970-01-01 00:00:30.213,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:ipc_socket_endpoint]:epool fd 7 ,add client fd 13,0x7fef8fef90 
+
+1970-01-01 00:00:30.230,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:path: /usrdata/conf/wifi.json
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi]:recv form mutilcast cmd open wifi
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:wifi is on
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:Dual AP mode
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:p_wifi_cfg->ap_num 2
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 is on
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 ssid AP0
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 wpa_wpa2_wpa3
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 pwd_partition secdata
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 pwd_process wpa_wpa2
+
+
+1970-01-01 00:00:30.278,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 pwd_fileid wpa_wpa2_ap0
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 country_code CN
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 IEEE 802.11b (2.4 GHz)
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 bandwith 80MHZ
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 channel 11
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 is not hide
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 is isolate
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 is on
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 ssid AP1
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 wpa_wpa2_wpa3
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 pwd_partition secdata
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 pwd_process wpa_wpa2
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 pwd_fileid wpa_wpa2_ap1
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 country_code CN
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 IEEE 802.11b (2.4 GHz)
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 bandwith 80MHZ
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 channel 11
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 is not hide
+
+
+1970-01-01 00:00:30.279,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 is isolate
+
+
+1970-01-01 00:00:33.640,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap index: 0
+
+
+1970-01-01 00:00:33.640,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:previous ap status: 0
+
+
+1970-01-01 00:00:33.640,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:status   : 1
+
+
+1970-01-01 00:00:33.640,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ifname   : 
+
+
+1970-01-01 00:00:33.640,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:bssid    : 
+
+
+1970-01-01 00:00:33.822,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:previous enable status: 0
+
+
+1970-01-01 00:00:33.822,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:current enable status: 1
+
+
+1970-01-01 00:00:33.845,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap index: 1
+
+
+1970-01-01 00:00:33.845,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:previous ap status: 0
+
+
+1970-01-01 00:00:33.845,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:status   : 1
+
+
+1970-01-01 00:00:33.846,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ifname   : 
+
+
+1970-01-01 00:00:33.846,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:bssid    : 
+
+
+1970-01-01 00:00:34.998,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap0 password 12345678
+
+
+1970-01-01 00:00:34.234,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap index: 0
+
+
+1970-01-01 00:00:34.234,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:previous ap status: 1
+
+
+1970-01-01 00:00:34.234,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:status   : 3
+
+
+1970-01-01 00:00:34.234,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ifname   : wlan0
+
+
+1970-01-01 00:00:34.234,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:bssid    : 58:DB:09:3B:06:58
+
+
+1970-01-01 00:00:34.363,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap1 password 12345678
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ap index: 1
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:previous ap status: 1
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:status   : 3
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:ifname   : wlan1
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1955,app:cx_wifi_setting 41,I,msg:[module:wifi_def]:bssid    : 58:DB:09:BE:06:58
+
+
+1970-01-01 00:00:34.508,pid:1888-tid:1888,app:cx_wifi_setting 41,I,msg:[module:wifi]:open wifi success
+

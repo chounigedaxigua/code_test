@@ -1,0 +1,364 @@
+1970-01-01 00:00:30.472,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 4 
+
+1970-01-01 00:00:30.472,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 6 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1556,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 7 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 8 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 9 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 10 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 11 
+
+1970-01-01 00:00:30.478,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epoll_create1 fd 12 
+
+1970-01-01 00:00:30.479,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.479,pid:1555-tid:1560,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.479,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.479,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.485,pid:1555-tid:1576,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.491,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.491,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:socket 13 path /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.491,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.491,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:get sockdet fd 13   buf szie 32768 
+
+1970-01-01 00:00:30.491,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:listen max 347
+
+1970-01-01 00:00:30.819,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_remote_send,6-remote_send-14 
+
+1970-01-01 00:00:30.819,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 14 14 0x7ffcc4acc0
+
+1970-01-01 00:00:30.819,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 14 set O_NONBLOCK 
+
+1970-01-01 00:00:30.819,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 11 ,add client fd 14,0x7ffcc4acc0 
+
+1970-01-01 00:00:30.865,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_remote_recv,6-remote_recv-15 
+
+1970-01-01 00:00:30.866,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.866,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.866,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.866,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.902,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_response_send,6-response_send-16 
+
+1970-01-01 00:00:30.902,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 16 16 0x7ffcc4ae80
+
+1970-01-01 00:00:30.902,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 16 set O_NONBLOCK 
+
+1970-01-01 00:00:30.902,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 11 ,add client fd 16,0x7ffcc4ae80 
+
+1970-01-01 00:00:30.918,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_response_recv,6-response_recv-17 
+
+1970-01-01 00:00:30.940,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_muticast_send,6-muticast_send-18 
+
+1970-01-01 00:00:30.940,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 18 18 0x7ffcc4b040
+
+1970-01-01 00:00:30.940,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 18 set O_NONBLOCK 
+
+1970-01-01 00:00:30.940,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 11 ,add client fd 18,0x7ffcc4b040 
+
+1970-01-01 00:00:30.965,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.965,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.965,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 6_muticast_recv,6-muticast_recv-19 
+
+1970-01-01 00:00:30.966,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.966,pid:1555-tid:1563,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 6  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.147,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_remote_send,19-remote_send-20 
+
+1970-01-01 00:00:30.147,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 20 20 0x7ffcc4f100
+
+1970-01-01 00:00:30.147,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 20 set O_NONBLOCK 
+
+1970-01-01 00:00:30.147,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 8 ,add client fd 20,0x7ffcc4f100 
+
+1970-01-01 00:00:30.159,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_remote_recv,19-remote_recv-21 
+
+1970-01-01 00:00:30.160,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.160,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.163,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.172,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.214,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_response_send,19-response_send-22 
+
+1970-01-01 00:00:30.214,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 22 22 0x7ffcc4f2c0
+
+1970-01-01 00:00:30.214,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 22 set O_NONBLOCK 
+
+1970-01-01 00:00:30.214,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 8 ,add client fd 22,0x7ffcc4f2c0 
+
+1970-01-01 00:00:30.231,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_response_recv,19-response_recv-23 
+
+1970-01-01 00:00:30.251,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_muticast_send,19-muticast_send-24 
+
+1970-01-01 00:00:30.251,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 24 24 0x7ffcc4f480
+
+1970-01-01 00:00:30.251,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 24 set O_NONBLOCK 
+
+1970-01-01 00:00:30.251,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 8 ,add client fd 24,0x7ffcc4f480 
+
+1970-01-01 00:00:30.262,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 19_muticast_recv,19-muticast_recv-25 
+
+1970-01-01 00:00:30.262,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.262,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.263,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.263,pid:1555-tid:1559,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 19  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.836,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_remote_send,9-remote_send-26 
+
+1970-01-01 00:00:30.836,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 26 26 0x7ffcc4bc80
+
+1970-01-01 00:00:30.836,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 26 set O_NONBLOCK 
+
+1970-01-01 00:00:30.836,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 26,0x7ffcc4bc80 
+
+1970-01-01 00:00:30.863,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.863,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_remote_recv,9-remote_recv-27 
+
+1970-01-01 00:00:30.998,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_remote_send,41-remote_send-28 
+
+1970-01-01 00:00:30.998,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 28 28 0x7ffcc56480
+
+1970-01-01 00:00:30.998,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 28 set O_NONBLOCK 
+
+1970-01-01 00:00:30.998,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 28,0x7ffcc56480 
+
+1970-01-01 00:00:30.020,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_remote_recv,41-remote_recv-29 
+
+1970-01-01 00:00:30.020,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.020,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.022,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.023,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.066,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_response_send,41-response_send-30 
+
+1970-01-01 00:00:30.066,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 30 30 0x7ffcc56640
+
+1970-01-01 00:00:30.066,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 30 set O_NONBLOCK 
+
+1970-01-01 00:00:30.066,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 30,0x7ffcc56640 
+
+1970-01-01 00:00:30.111,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_response_recv,41-response_recv-31 
+
+1970-01-01 00:00:30.164,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_muticast_send,41-muticast_send-32 
+
+1970-01-01 00:00:30.164,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 32 32 0x7ffcc56800
+
+1970-01-01 00:00:30.164,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 32 set O_NONBLOCK 
+
+1970-01-01 00:00:30.164,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 32,0x7ffcc56800 
+
+1970-01-01 00:00:30.212,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 41_muticast_recv,41-muticast_recv-33 
+
+1970-01-01 00:00:30.214,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.218,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.218,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.218,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 41  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.234,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_remote_send,1-remote_send-34 
+
+1970-01-01 00:00:30.234,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 34 34 0x7ffcc49280
+
+1970-01-01 00:00:30.234,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 34 set O_NONBLOCK 
+
+1970-01-01 00:00:30.235,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 34,0x7ffcc49280 
+
+1970-01-01 00:00:30.257,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_remote_recv,1-remote_recv-35 
+
+1970-01-01 00:00:30.257,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.258,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.258,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.261,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.284,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_response_send,1-response_send-36 
+
+1970-01-01 00:00:30.284,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 36 36 0x7ffcc49440
+
+1970-01-01 00:00:30.284,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 36 set O_NONBLOCK 
+
+1970-01-01 00:00:30.284,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 36,0x7ffcc49440 
+
+1970-01-01 00:00:30.308,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_response_recv,1-response_recv-37 
+
+1970-01-01 00:00:30.420,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_muticast_send,1-muticast_send-38 
+
+1970-01-01 00:00:30.420,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 38 38 0x7ffcc49600
+
+1970-01-01 00:00:30.420,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 38 set O_NONBLOCK 
+
+1970-01-01 00:00:30.420,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 38,0x7ffcc49600 
+
+1970-01-01 00:00:30.473,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 1_muticast_recv,1-muticast_recv-39 
+
+1970-01-01 00:00:30.473,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.473,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.473,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.474,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 1  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.511,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_remote_send,18-remote_send-40 
+
+1970-01-01 00:00:30.511,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 40 40 0x7ffcc4ebc0
+
+1970-01-01 00:00:30.511,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 40 set O_NONBLOCK 
+
+1970-01-01 00:00:30.512,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 7 ,add client fd 40,0x7ffcc4ebc0 
+
+1970-01-01 00:00:30.522,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.522,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_remote_recv,18-remote_recv-41 
+
+1970-01-01 00:00:30.871,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.872,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.872,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.883,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_response_send,9-response_send-42 
+
+1970-01-01 00:00:30.883,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 42 42 0x7ffcc4be40
+
+1970-01-01 00:00:30.883,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 42 set O_NONBLOCK 
+
+1970-01-01 00:00:30.883,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 42,0x7ffcc4be40 
+
+1970-01-01 00:00:30.909,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_response_recv,9-response_recv-43 
+
+1970-01-01 00:00:30.936,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_muticast_send,9-muticast_send-44 
+
+1970-01-01 00:00:30.936,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 44 44 0x7ffcc4c000
+
+1970-01-01 00:00:30.936,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 44 set O_NONBLOCK 
+
+1970-01-01 00:00:30.936,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 6 ,add client fd 44,0x7ffcc4c000 
+
+1970-01-01 00:00:30.946,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 9_muticast_recv,9-muticast_recv-45 
+
+1970-01-01 00:00:30.946,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.946,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.946,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.946,pid:1555-tid:1557,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 9  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.541,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.541,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.541,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 3 1 
+
+1970-01-01 00:00:30.549,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_response_send,18-response_send-46 
+
+1970-01-01 00:00:30.549,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 46 46 0x7ffcc4ed80
+
+1970-01-01 00:00:30.549,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 46 set O_NONBLOCK 
+
+1970-01-01 00:00:30.549,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 7 ,add client fd 46,0x7ffcc4ed80 
+
+1970-01-01 00:00:30.586,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_response_recv,18-response_recv-47 
+
+1970-01-01 00:00:30.623,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_muticast_send,18-muticast_send-48 
+
+1970-01-01 00:00:30.623,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 48 48 0x7ffcc4ef40
+
+1970-01-01 00:00:30.623,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 48 set O_NONBLOCK 
+
+1970-01-01 00:00:30.623,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 7 ,add client fd 48,0x7ffcc4ef40 
+
+1970-01-01 00:00:30.634,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 18_muticast_recv,18-muticast_recv-49 
+
+1970-01-01 00:00:30.635,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 0 1 
+
+1970-01-01 00:00:30.635,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 1 1 
+
+1970-01-01 00:00:30.635,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 2 1 
+
+1970-01-01 00:00:30.636,pid:1555-tid:1558,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 18  registered mutilcall 3 1 
+
+1970-01-01 00:00:38.919,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_remote_send,5-remote_send-50 
+
+1970-01-01 00:00:38.919,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 50 50 0x7ffcc4a780
+
+1970-01-01 00:00:38.919,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 50 set O_NONBLOCK 
+
+1970-01-01 00:00:38.919,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 10 ,add client fd 50,0x7ffcc4a780 
+
+1970-01-01 00:00:38.926,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_remote_recv,5-remote_recv-51 
+
+1970-01-01 00:00:38.926,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 0 1 
+
+1970-01-01 00:00:38.926,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 1 1 
+
+1970-01-01 00:00:38.926,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 2 1 
+
+1970-01-01 00:00:38.926,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 3 1 
+
+1970-01-01 00:00:38.934,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_response_send,5-response_send-52 
+
+1970-01-01 00:00:38.934,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 52 52 0x7ffcc4a940
+
+1970-01-01 00:00:38.934,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 52 set O_NONBLOCK 
+
+1970-01-01 00:00:38.934,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 10 ,add client fd 52,0x7ffcc4a940 
+
+1970-01-01 00:00:38.941,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_response_recv,5-response_recv-53 
+
+1970-01-01 00:00:38.948,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_muticast_send,5-muticast_send-54 
+
+1970-01-01 00:00:38.948,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:add fd 54 54 0x7ffcc4ab00
+
+1970-01-01 00:00:38.948,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:sal_net_device]:fd 54 set O_NONBLOCK 
+
+1970-01-01 00:00:38.948,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:epool fd 10 ,add client fd 54,0x7ffcc4ab00 
+
+1970-01-01 00:00:38.962,pid:1555-tid:1555,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:accept new client 5_muticast_recv,5-muticast_recv-55 
+
+1970-01-01 00:00:38.962,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 0 1 
+
+1970-01-01 00:00:38.962,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 1 1 
+
+1970-01-01 00:00:38.962,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 2 1 
+
+1970-01-01 00:00:38.962,pid:1555-tid:1562,app:cx_ipc_server 0,I,msg:[module:ipc_socket_server]:src 5  registered mutilcall 3 1 
+

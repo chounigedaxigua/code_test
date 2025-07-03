@@ -1,0 +1,3 @@
+/home/xhh/c_file/reference_var/CMakeFiles/main.dir
+/home/xhh/c_file/reference_var/CMakeFiles/edit_cache.dir
+/home/xhh/c_file/reference_var/CMakeFiles/rebuild_cache.dir

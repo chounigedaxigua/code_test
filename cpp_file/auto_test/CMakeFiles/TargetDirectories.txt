@@ -1,0 +1,3 @@
+/home/xhh/auto_test/temp/project_t/CMakeFiles/automated_testing.dir
+/home/xhh/auto_test/temp/project_t/CMakeFiles/edit_cache.dir
+/home/xhh/auto_test/temp/project_t/CMakeFiles/rebuild_cache.dir

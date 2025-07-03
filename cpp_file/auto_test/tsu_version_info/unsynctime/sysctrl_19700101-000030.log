@@ -1,0 +1,328 @@
+1970-01-01 00:00:30.223,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:channel name 1_remote 
+
+1970-01-01 00:00:30.223,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:channel name 1_response 
+
+1970-01-01 00:00:30.223,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:channel name 1_muticast 
+
+1970-01-01 00:00:30.224,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:epoll_create1 fd 9 
+
+1970-01-01 00:00:30.224,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_remote_send
+
+1970-01-01 00:00:30.224,pid:1949-tid:1950,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start loop_thread 
+
+1970-01-01 00:00:30.224,pid:1949-tid:1951,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start _ipc_epool_thread 
+
+1970-01-01 00:00:30.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 10 path /tmp/cx/usocket/1_remote_send
+
+1970-01-01 00:00:30.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_remote_send
+
+1970-01-01 00:00:30.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 10   buf szie 32768 
+
+1970-01-01 00:00:30.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.235,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.235,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_remote_recv
+
+1970-01-01 00:00:30.250,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 11 path /tmp/cx/usocket/1_remote_recv
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_remote_recv
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 11   buf szie 32768 
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.257,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_remote_recv
+
+1970-01-01 00:00:30.261,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_response_send
+
+1970-01-01 00:00:30.281,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.284,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 12 path /tmp/cx/usocket/1_response_send
+
+1970-01-01 00:00:30.284,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_response_send
+
+1970-01-01 00:00:30.284,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 12   buf szie 32768 
+
+1970-01-01 00:00:30.284,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.286,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.286,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_response_recv
+
+1970-01-01 00:00:30.293,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 13 path /tmp/cx/usocket/1_response_recv
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_response_recv
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 13   buf szie 32768 
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_response_recv
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:add fd 13 9 0x7fe8d658b0
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:fd 13 set O_NONBLOCK 
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:epool fd 9 ,add client fd 13,0x7fe8d658b0 
+
+1970-01-01 00:00:30.306,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_muticast_send
+
+1970-01-01 00:00:30.415,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 14 path /tmp/cx/usocket/1_muticast_send
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_muticast_send
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 14   buf szie 32768 
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.419,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_muticast_recv
+
+1970-01-01 00:00:30.471,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_shell]: mkdir -p /tmp/cx/usocket/
+
+1970-01-01 00:00:30.472,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:socket 15 path /tmp/cx/usocket/1_muticast_recv
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:bind uaddr /tmp/cx/usocket/1_muticast_recv
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:get sockdet fd 15   buf szie 32768 
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:connect unix /tmp/cx/usocket/ipc_server ok
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:start 1_muticast_recv
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:add fd 15 9 0x7fe8d65ad8
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sal_net_device]:fd 15 set O_NONBLOCK 
+
+1970-01-01 00:00:30.473,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:ipc_socket_endpoint]:epool fd 9 ,add client fd 15,0x7fe8d65ad8 
+
+1970-01-01 00:00:30.511,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sysctrl_power_gpio]:Init vc33 GPIO: gpio=35, dir=1, level=1, iRet=0
+
+1970-01-01 00:00:30.513,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sysctrl_power_gpio]:Init vc18 GPIO: gpio=76, dir=1, level=1, iRet=0
+
+1970-01-01 00:00:30.528,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sysctrl_power_gpio]:Init iic GPIO: gpio=78, dir=1, level=1, iRet=0
+
+1970-01-01 00:00:30.540,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:diagnosis_speaker]:run dc diag
+
+1970-01-01 00:00:30.560,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:diagnosis_data]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/diagnosis/data/diagnosis_nw_data.c,line:060,function:_diagnosis_nw_data_open,assert info:assert [  ret must be QL_ERR_OK ] failed!
+
+1970-01-01 00:00:30.561,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:diagnosis open success
+
+1970-01-01 00:00:30.680,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:sal_shell]:i2cset -f -y -a 0 0x58 0x00 0x00
+
+1970-01-01 00:00:30.692,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:sal_shell]:i2cset -f -y -a 0 0x58 0x7f 0x00
+
+1970-01-01 00:00:30.703,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:sal_shell]:i2cset -f -y -a 0 0x58 0x03 0x40
+
+1970-01-01 00:00:30.713,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:sal_shell]:i2cset -f -y -a 0 0x58 0x03 0x11
+
+1970-01-01 00:00:30.225,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:to send to mcu ok
+
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 64
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 1
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:30.249,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:30.254,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:30.264,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:adjust_time]:from_mcu_valid is 3
+
+
+1970-01-01 00:00:30.264,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:adjust_time]:Receive from mcu,  time is : 2024-1-1 1:1:59
+
+
+1970-01-01 00:00:30.332,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:sysctrl_power]:check tsu state old state 0 new state 11
+
+1970-01-01 00:00:31.069,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:diagnosis_speaker]:dc_diag_result: 0x20
+
+1970-01-01 00:00:31.069,pid:1949-tid:1996,app:cx_sysctrl 1,I,msg:[module:diagnosis_speaker]:register 0xc0 number: 0x20
+
+
+1970-01-01 00:00:31.224,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 64
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 1
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:31.253,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 64
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:32.251,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:32.254,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:33.225,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 64
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:33.237,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:diagnosis_data]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/diagnosis/data/diagnosis_nw_data.c,line:091,function:_diagnosis_nw_data_get,assert info:assert [  ret must be QL_ERR_OK ] failed!
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:34.265,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:34.268,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:35.224,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:35.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:36.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:36.235,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:37.224,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:37.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:38.234,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:39.224,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
+1970-01-01 00:00:39.240,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:diagnosis_data]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/diagnosis/data/diagnosis_nw_data.c,line:091,function:_diagnosis_nw_data_get,assert info:assert [  ret must be QL_ERR_OK ] failed!
+
+1970-01-01 00:00:39.240,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:gsml_status     = 0   
+
+1970-01-01 00:00:39.240,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:gsml_val        = 0   
+
+1970-01-01 00:00:39.240,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:ltelvl_status   = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:ltelvl_val      = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:tellv_status    = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:tellv_val       = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:umtslvl_status  = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:umtslvl_val     = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:snr_status      = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:snr_val         = 0   
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:39.241,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 0: name = DSP           status= 64
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 1: name = ESIM          status= 0
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 2: name = ETH           status= 3
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 3: name = NAD Interal   status= 64
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 4: name = NAD repro     status= 64
+
+1970-01-01 00:00:40.234,pid:1949-tid:1949,app:cx_sysctrl 1,I,msg:[module:diagnosis]:entry id 5: name = Ecall speaker status= 64
+
+1970-01-01 00:00:40.235,pid:1949-tid:1949,app:cx_sysctrl 1,E,msg:[module:adjust_time]: at file:/var/lib/jenkins/workspace/dailybuild/main/app/localApp/system_app/sysctrl/src/time/adjust_time.c,line:084,function:time_flag_is_exist,errro info:/tmp/gnss_time does not exist.
+
