@@ -46,5 +46,5 @@ int main()
     int a = 10, b = 5;
     int (*haha[ARI_MAX])(int ,int) = {add, subtract, multiply, divide};
     printf("a = %d, s = %d, m = %d, d = %d\n",haha[ADD](a,b),haha[SUBTRACT](a,b),haha[MULTIPLY](a,b),haha[DIVIDE](a,b));
-    return 0;
+    return 0; 
 }
