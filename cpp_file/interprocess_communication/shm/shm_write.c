@@ -37,19 +37,7 @@ void  shmw()
 int main( )
 {
 
-    // shmw( );
-
-    // return 0;
-    for(int i = 0;i<50;i++)
-    {
-        printf("%d \t",i);
-    }
-    for(int i = 51;i<=100;i++)
-    {
-        printf("%d \t",i);
-    }
+    shmw();
 
     return 0;
 }
-//0   1   2   3   4      .......49 50 51.......    96 97 98 99 100
-//100 100 100 100 100 100       100
