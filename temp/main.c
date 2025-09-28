@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-
-
+#include <stdlib.h>
+#include <string.h>
 
 int main()
 {
-    int pid = 0;
-    if(pid = fork() < 0)
-    {
-        return -1;
+   int day, year;
+   char weekday[20], month[20], dtm[100];
 
-    }
-    printf("hello\n");
+   strcpy( dtm, "Saturday March 25 1989" );
+   sscanf( dtm, "%s %s %d  %d", weekday, month, &day, &year );
+
+   printf("%s %d, %d = %s\n", month, day, year, weekday );
+    
+   return(0);
 }
