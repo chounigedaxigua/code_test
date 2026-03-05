@@ -12,7 +12,7 @@
 *   **适用场景**：**读多写少**，如缓存、配置表等。
 *   **C语言实现**：通过 POSIX 线程库 (`pthread_rwlock_t`) 提供
 
-
+PTHREAD_RWLOCK_INITIALIZER  可以直接将读写锁初始化为默认、未锁定的状态，而不需要运行时调用pthread_rwlock_init();
 #include <pthread.h>
 // 初始化读写锁
 int pthread_rwlock_init(pthread_rwlock_t *rwlock, const pthread_rwlockattr_t *attr);
