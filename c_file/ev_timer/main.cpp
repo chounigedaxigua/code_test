@@ -24,3 +24,5 @@ int main(int argc,char **argv)
     ev_run(main_loop,0);
     return 0;
 }
+//               sudo apt install libev-dev
+//               gcc main.cpp -lev
