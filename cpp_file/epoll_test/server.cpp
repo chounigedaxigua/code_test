@@ -15,7 +15,6 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <ctype.h>
-#include <thread>
 //传参结构体
 struct FDInfo
 {
@@ -123,51 +122,7 @@ int epollRun(int lfd)
 	}
 	return 0;
 }
-void acceptClientThreadHandling(const int client_sockfd, const struct sockaddr_in& client_addr)
-{
-    const int flag = 0; // 0表示读写处于阻塞模式
-    char ipbuf[128];
-    printf("Connect client iP: %s, port: %d\n", inet_ntop(AF_INET, &client_addr.sin_addr.s_addr, ipbuf, 
-        sizeof(ipbuf)), ntohs(client_addr.sin_port));
 
-    // 实现客户端发送小写字符串给服务端，服务端将小写字符串转为大写返回给客户端
-    char buf[4096];
-    while(1) 
-    {
-        // read data, 阻塞读取
-        int len = recv(client_sockfd, buf, sizeof(buf),flag);
-        if (len == -1)
-         {
-            close(client_sockfd);
-            // close(server_sockfd);
-            perror("read error");
-        }else if(len == 0)// 这里以len为0表示当前处理请求的客户端断开连接
-        {  
-            break;
-        }
-        printf("Recvive from client iP: %s, port: %d， str = %s\n", inet_ntop(AF_INET, &client_addr.sin_addr.s_addr, ipbuf, 
-        sizeof(ipbuf)), ntohs(client_addr.sin_port),buf);
-        // 小写转大写
-        for(int i=0; i<len; ++i) 
-        {
-            buf[i] = toupper(buf[i]);
-        }
-        printf("Send to client iP: %s, port: %d， str = %s\n",inet_ntop(AF_INET, &client_addr.sin_addr.s_addr, ipbuf, 
-        sizeof(ipbuf)), ntohs(client_addr.sin_port), buf);
-
-        // 大写串发给客户端
-        if(send(client_sockfd, buf, strlen(buf),flag) == -1)
-        {
-            close(client_sockfd);
-            // close(server_sockfd);
-            perror("write error");
-        }
-        memset(buf,'\0',len); // 清空buf
-    }
-    close(client_sockfd);
-    printf("Disconnect client iP: %s, port: %d\n", inet_ntop(AF_INET, &client_addr.sin_addr.s_addr, ipbuf, 
-        sizeof(ipbuf)), ntohs(client_addr.sin_port));
-}
 void* acceptClient(void* arg)
 {
     struct sockaddr_in client_addr;
@@ -198,8 +153,7 @@ void* acceptClient(void* arg)
 		perror("epoll_ctl");
 		return NULL;
 	}
-    // std::thread tcpThread(acceptClientThreadHandling, cfd, client_addr);
-    // tcpThread.detach(); // 不阻塞主线程，执行tcp通讯的线程从线程对象分离
+
 	printf("recvMsg threadId(acceptClient) : %ld\n", info->tid);
 	free(info);
 
@@ -224,6 +178,7 @@ void* recvHttpRequest(void* arg)
 		}
 		total += len;
 	}
+	printf("recvMsg threadId(recvHttpRequest) : %ld, buf = %s\n", info->tid, buf);
 	//printf("total = %d\n", total);
 	//判断数据是否被接受完毕
 	if (len == -1 && errno == EAGAIN) //len 等于-1 并且错误为EAGAIN
@@ -231,6 +186,11 @@ void* recvHttpRequest(void* arg)
 		//printf("analyse get request!\n");
 		//解析请求行,对，先处理get请求
 		char* pt = strstr(buf, "\r\n"); // 遇到这两个字符\r\n 从左往右搜到之后，就结束了
+		if (pt == NULL)
+		{
+			printf("pt is NULL\n");
+			return NULL;
+		}
 		int reqLen = (int)(pt - buf); //得到请求行的长度，结束的地址，减去起始的地址
 		buf[reqLen] = '\0'; // buf[reqLen-1]是上面的最后一个字符
 		//printf("%s\n", buf);
