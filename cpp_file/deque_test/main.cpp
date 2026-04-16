@@ -1,5 +1,6 @@
 #include <iostream>
 #include <deque>
+#include <list>
 #include <functional>
 #include <unistd.h>
 using namespace std;
@@ -20,9 +21,8 @@ public:
 
 int main() {
 
-    deque<function<void()>> print_cars;
-    
-    deque<int> dq;
+    list<function<void()>> print_cars;
+    // deque<function<void()>> print_cars;//也可以使用deque，但是list更合适，因为list的插入和删除更高效，不需要像deque那样移动元素
     car car1("car1", "red");
     car car2("car2", "blue");
     car car3("car3", "green");
