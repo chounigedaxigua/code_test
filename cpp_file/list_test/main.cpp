@@ -27,7 +27,6 @@ int main() {
     car car2("car2", "blue");
     car car3("car3", "green");
 
-    /* 消费者线程 */
     thread worker([&]() {
         while (running) {
             function<void()> task;
@@ -35,7 +34,7 @@ int main() {
             {
                 unique_lock<mutex> lock(mtx);
                 cv.wait(lock, [] {
-                    return !tasks.empty() || !running;
+                    return !tasks.empty() || !running;//任务不为空的时候或者线程准备退出的时候，唤醒线程
                 });
 
                 if (!running && tasks.empty())
@@ -49,7 +48,6 @@ int main() {
         }
     });
 
-    /* 生产者：初始任务 */
     {
         lock_guard<mutex> lock(mtx);
         tasks.push_back([&car1] { car1.print(); });
@@ -58,7 +56,6 @@ int main() {
     }
     cv.notify_one();
 
-    /* 持续生产 */
     for (int i = 0; i < 10; ++i) {
         this_thread::sleep_for(chrono::seconds(1));
         {
